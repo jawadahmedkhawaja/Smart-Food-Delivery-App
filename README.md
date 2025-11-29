@@ -17,10 +17,9 @@
 
 ## 📖 About
 
-**Smart Food Delivery App (SFDA)** is a complete food delivery ecosystem that connects **Customers**, **Restaurants**, **Delivery Personnel**, and **Administrators** in one unified platform. This is my **first Flutter project**, developed as part of my Final Year Project, combining modern mobile development practices with real-world functionality.
+**Smart Food Delivery App (SFDA)** is a complete food delivery ecosystem that connects **Customers**, **Restaurants**, **Delivery Personnel**, and **Administrators** in one unified platform. This is my **first Flutter project**, combining modern mobile development practices with real-world functionality.
 
-> **Note**: While I utilized ChatGPT for guidance and learning, significant portions of this application were developed independently, implementing custom logic, UI/UX designs, and Firebase integrations.
->
+> **Note**: While I utilized ChatGPT for guidance and learning, significant portions of this application were developed independently, implementing custom logic, UI/UX designs, and Firebase integrations.\
 > **Note**: As a beginner there maybe alot faults in the project butt I have done my best for creating this app.
 
 ---
@@ -60,17 +59,17 @@
 ### Authentication Flow
 | Login/Signup | Email Verification | Forgot Password |
 |:------------:|:------------------:|:---------------:|
-| ![Login Page](screenshots/login_page.png) | ![Email Verification](screenshots/email_verification.png) | ![Forgot Password](screenshots/forgot_password.png) |
+| ![Login Page](screenshots/login.jpeg) | ![Email Verification](screenshots/email_verify.jpeg) | ![Forgot Password](screenshots/forgot_password.png) |
 
 ### Customer Dashboard
-| Home | Restaurant Menu | Cart | Order Tracking |
-|:----:|:---------------:|:----:|:--------------:|
-| ![Customer Home](screenshots/customer_home.png) | ![Restaurant Menu](screenshots/restaurant_menu.png) | ![Cart](screenshots/cart.png) | ![Order Tracking](screenshots/order_tracking.png) |
+| Home | Cart | Order Tracking |
+|:----:|:----:|:--------------:|
+| ![Customer Home](screenshots/customer_main_page.jpeg) |  ![Cart](screenshots/cart_page.jpeg) | ![Order Tracking](screenshots/order_tracking.png) |
 
 ### Restaurant Dashboard
-| Dashboard | Menu Management | Orders | Analytics |
-|:---------:|:---------------:|:------:|:---------:|
-| ![Restaurant Dashboard](screenshots/restaurant_dashboard.png) | ![Menu Management](screenshots/menu_management.png) | ![Restaurant Orders](screenshots/restaurant_orders.png) | ![Restaurant Analytics](screenshots/restaurant_analytics.png) |
+| Dashboard |  Orders | Adding Restaurant Detail |
+|:---------:|:------:|:---------:|
+| ![Restaurant Dashboard](screenshots/res_menu.jpeg) | ![Restaurant Orders](screenshots/res_orders_page.jpeg) | ![Restaurant Detail](screenshots/r_detail.jpeg) |
 
 ### Delivery Personnel Dashboard
 | Active Deliveries | Navigation | Delivery History |
@@ -78,9 +77,9 @@
 | ![Deliveries](screenshots/delivery_active.png) | ![Navigation](screenshots/delivery_navigation.png) | ![Delivery History](screenshots/delivery_history.png) |
 
 ### Admin Dashboard
-| Overview | User Management | Platform Analytics |
+| Overview | User Management | Adding Another Admin |
 |:--------:|:---------------:|:------------------:|
-| ![Admin Dashboard](screenshots/admin_dashboard.png) | ![User Management](screenshots/admin_users.png) | ![Analytics](screenshots/admin_analytics.png) |
+| ![Admin Dashboard](screenshots/admin_main_page.jpeg) | ![User Management](screenshots/users_page_admin.jpeg) | ![Adding Another Admin](screenshots/adding_another_admin.jpeg) |
 
 ---
 
@@ -314,6 +313,6 @@ in the Software without restriction...
 
 ### ⭐ If you found this project helpful, please consider giving it a star!
 
-Made with ❤️ by [Jawad Ahmed](https://github.com/jawadahmedkh)
+Made with ❤️ by [Jawad Ahmed Khawaja](https://github.com/jawadahmedkh)
 
 </div>
