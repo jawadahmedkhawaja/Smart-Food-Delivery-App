@@ -434,6 +434,10 @@ class _LoginAndSignUpPageState extends State<LoginAndSignUpPage>
                             value: 'delivery',
                             child: Text('Delivery'),
                           ),
+                          DropdownMenuItem(
+                            value: 'admin',
+                            child: Text('Admin'),
+                          ),
                         ],
                         decoration: InputDecoration(
                           prefixIcon: const Icon(Icons.assignment_ind_outlined),

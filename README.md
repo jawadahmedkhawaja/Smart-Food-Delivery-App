@@ -59,7 +59,7 @@
 ### Authentication Flow
 | Login/Signup | Email Verification | Forgot Password |
 |:------------:|:------------------:|:---------------:|
-| ![Login Page](screenshots/login.jpeg) | ![Email Verification](screenshots/email_verify.jpeg) | ![Forgot Password](screenshots/forgot_password.png) |
+| ![Login Page](screenshots/login.jpeg) | ![Email Verification](screenshots/email_verify.jpeg) | ![Forgot Password](screenshots/forgot.jpeg) |
 
 ### Customer Dashboard
 | Home | Cart | Order Tracking |
@@ -72,9 +72,9 @@
 | ![Restaurant Dashboard](screenshots/res_menu.jpeg) | ![Restaurant Orders](screenshots/res_orders_page.jpeg) | ![Restaurant Detail](screenshots/r_detail.jpeg) |
 
 ### Delivery Personnel Dashboard
-| Active Deliveries | Navigation | Delivery History |
-|:-----------------:|:----------:|:----------------:|
-| ![Deliveries](screenshots/delivery_active.png) | ![Navigation](screenshots/delivery_navigation.png) | ![Delivery History](screenshots/delivery_history.png) |
+| Active Deliveries | Navigation |
+|:-----------------:|:----------:|
+| ![Deliveries](screenshots/delivery_active.png) | ![Navigation](screenshots/delivery_navigation.png) |
 
 ### Admin Dashboard
 | Overview | User Management | Adding Another Admin |
