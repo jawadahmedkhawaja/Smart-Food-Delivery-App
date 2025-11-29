@@ -1,0 +1,73 @@
+# ==========================================================
+# 🔍 Flutter Analysis Options — Pro Setup by ChatGPT (GPT-5)
+# Enforces clean, maintainable, and high-performance Dart code.
+# ==========================================================
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.injectable.dart"
+    - "**/*.gr.dart"
+
+  errors:
+    missing_required_param: error
+    missing_return: error
+    dead_code: warning
+    unused_import: warning
+    prefer_const_constructors: warning
+    prefer_const_literals_to_create_immutables: warning
+    prefer_const_constructors_in_immutables: warning
+    unnecessary_const: info
+    unused_local_variable: ignore
+
+linter:
+  rules:
+    # ✅ Const optimization
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+    unnecessary_const: true
+
+    # 🧼 Code style and readability
+    avoid_print: true
+    prefer_final_locals: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    sort_child_properties_last: true
+    use_key_in_widget_constructors: true
+
+    # 🧠 Best practices
+    always_declare_return_types: true
+    annotate_overrides: true
+    avoid_redundant_argument_values: true
+    avoid_types_on_closure_parameters: true
+    avoid_unnecessary_containers: true
+    avoid_void_async: true
+    cancel_subscriptions: true
+    close_sinks: true
+
+    # 🚀 Performance & safety
+    avoid_init_to_null: true
+    prefer_const_declarations: true
+    prefer_typing_uninitialized_variables: true
+    unnecessary_new: true
+    unnecessary_lambdas: true
+
+    # 🏷️ Naming conventions
+    camel_case_types: true
+    camel_case_extensions: true
+    non_constant_identifier_names: false
+
+    # 🧩 Clean code structure
+    prefer_final_fields: true
+    avoid_multiple_declarations_per_line: true
+    prefer_interpolation_to_compose_strings: true
+    unnecessary_this: true
+
+    # 🧯 Misc
+    prefer_relative_imports: true
+    depend_on_referenced_packages: true
